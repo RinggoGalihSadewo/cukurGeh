@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link{
+    color: white;
+    transition: 1s;
+}
+.nav-link:hover{
+    color: #AF8A29;
+    border-bottom: 1px solid #AF8A29;
+    transition: 1s;
+}
+.daftar:hover{
+    color: white;
+    border:  none;
+}
+.nav-link:focus{
+    color: #AF8A29;
+    border-bottom: 1px solid #AF8A29;
+}
+nav {
+    padding-top: 10px;
+}
+.nav-link{
+    margin-left: 25px;
+}
+.daftar{
+    background-color: #AF8A29;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+.hero{
+    position: relative;
+}
+.hero .title h2{
+
+}
+.hero-master{
+    margin-top: 10%;
+}
+.hero .btn-title .booking{
+    background-color: #AF8A29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.hero .btn-title .booking:hover{
+    color: white;
+}
+.hero .btn-title .video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #AF8A29;
+}
+.img1{
+    margin-top: 10%;
+}
+.imgHero1{
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+.tentang{
+    margin-top: 18%;
+    position: relative;
+    padding-top: 20px;
+}
+.tentangKamiBody{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.img2{
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+.fitur{
+    margin-top: 10%;
+    padding-top: 20px;
+}
+.unduh{
+    margin-top: 5%;
+/*    padding-left: 200px;
+    padding-right: 200px;*/
+}
+.hp{
+    margin-left: 10%;
+}
+footer{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-top: 1px solid #959595;
+    border-bottom: 5px solid #AF8A29;
+    position: relative;
+}
+.logoFooter{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rows2Footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+/*ux*/
+.nav-link:hover{
+    color: #AF8A29;
+}
+a:hover{
+    color: #AF8A29;
+}
+
+@media only screen and (max-width: 992px){
+    body{
+        overflow-x: auto;
+    }
+    .navbar-brand img{
+        width: 70%;
+        height: 100px;
+    }
+    .tentangKamiBody{
+        margin-left: 10px;
+    }
+    .imgHero2 img{
+        width: 30vw;
+    }
+}
