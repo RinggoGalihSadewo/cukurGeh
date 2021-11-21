@@ -26,7 +26,7 @@ a{
     border-bottom: 1px solid #AF8A29;
 }
 nav {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .nav-link{
     margin-left: 25px;
@@ -128,17 +128,22 @@ a:hover{
 }
 
 @media only screen and (max-width: 992px){
-    body{
-        overflow-x: auto;
-    }
-    .navbar-brand img{
+/*    .navbar-brand img{
         width: 70%;
         height: 100px;
-    }
+    }*/
     .tentangKamiBody{
         margin-left: 10px;
+    }
+    .imgHero1 img{
+        width: 500px;
+        height: 500px;
+        margin-top: 140px;
     }
     .imgHero2 img{
         width: 30vw;
     }
+/*    .hero-master{
+        padding-left: 8%;
+    }*/
 }
